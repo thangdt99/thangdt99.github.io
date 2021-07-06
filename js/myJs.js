@@ -63,17 +63,17 @@ var n = 0;
 $('#no').mousemove(function() {
     if (n < 1){
         switchButton();
-    }/*
+    }
     else{
         moveButton();
     }
-    */
+    /*
     else{
         if (n <9){
             moveButton();
         }
     }
-    
+    */
 });
 // generate text in input
 function textGenerate() {
@@ -135,12 +135,11 @@ $('#yes').click(function() {
         }
     })
 })
-/*
 $('#no').click(() => {
     if (screen.width>=900)
         switchButton();
 })
-*/
+/*
 $('#no').click(function() {
     n=0;
     var audio = new Audio('sound/tick.mp3');
@@ -179,4 +178,5 @@ $('#no').click(function() {
         }
     })
 })
+*/
 
