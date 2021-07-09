@@ -48,7 +48,7 @@ function moveButton() {
         var x = Math.random() * 300;
         var y = Math.random() * 500;
     } else{
-        var x = Math.random() * 500;
+        var x = Math.random() * 1300;
         var y = Math.random() * 500;
     }
     var left = x + 'px';
