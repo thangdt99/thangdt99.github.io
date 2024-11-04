@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu Huệ xinh đẹp đáng yêu!',
+        title: 'He luu bé Bình xinh đẹp đáng yêu!',
         text: 'Anh có điều này muốn hỏi, em nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'images/cuteCat2.jpg',
         imageWidth: 300,
