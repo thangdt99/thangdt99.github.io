@@ -78,7 +78,7 @@ $('#no').mousemove(function() {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì anh đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì anh quá đẹp trai :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
